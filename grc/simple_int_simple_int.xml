@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<block>
+  <name>simple_int</name>
+  <key>simple_int_simple_int</key>
+  <category>[simple_int]</category>
+  <import>import simple_int</import>
+  <make>simple_int.simple_int($interpolation_factor)</make>
+  
+  <param>
+    <name>Interpolation Factor</name>
+    <key>interpolation_factor</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio SIMPLE_INT C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the SIMPLE_INT GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
